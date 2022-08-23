@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Variable</title>
+   </head>
+   <body>
+       <h1>Variables</h1>
+       <h4>${variable1}</h4>
+       <span th:utext="${variable1}"></span>
+       <h4>${variable2}</h4>
+       <span th:utext="${variable2}"></span>
+       <h1>Elvis Operator</h1>
+       <h4>${variable1}</h4>
+       <td th:text="${variable1} ? 'ACTIVE' : 'INACTIVE'" />
+       <h4>${variable7}</h4>
+       <td th:text="${variable7} ? 'ACTIVE' : 'INACTIVE'" />
+   </body>
+</html>
