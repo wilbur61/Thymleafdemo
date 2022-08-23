@@ -1,2 +1,2 @@
 # Thymleafdemo
-Thymleafdemo   --  provides simple introduction to Thymleaf bootstrap and Controller interaction w/o db
+Thymleafdemo   --  provides gentle introduction to Thymleaf bootstrap and Controller interaction w/o db
